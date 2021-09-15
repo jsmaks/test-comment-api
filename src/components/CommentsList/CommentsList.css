@@ -1,0 +1,27 @@
+.comments {
+  width: 100%;
+}
+
+.comments__list {
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans';
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 5px solid #ff9800;
+  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+
+  transition: 0.3s all linear;
+  width: 100%;
+}
+.comments__list-item {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  min-width: 100px;
+}
+.comments__list-name {
+  min-width: 400px;
+}
